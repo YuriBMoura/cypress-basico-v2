@@ -8,7 +8,7 @@ describe('Privacy Screen testes', function () {
   })
 
   it.only('Validando dados em outra tela do navegados',function(){
-    cy.contains('Talking Ab out Testing').should('be.visible')
+    cy.contains('Talking About Testing').should('be.visible')
   })
 
 }) 
